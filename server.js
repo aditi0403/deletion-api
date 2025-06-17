@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   res.send('Secure Deletion API is running');
 });
 
-console.log('Email User:', process.env.EMAIL_USER); // Should not be undefined
+console.log('`Email User:', process.env.EMAIL_USER); // Should not be undefined
 console.log('Email Pass:', process.env.EMAIL_PASS ? 'Set' : 'Not set');
 
 const PORT = process.env.PORT || 5000;

@@ -7,7 +7,7 @@ describe('Auth Routes', () => {
       .post('/api/auth/register')
       .send({
         name: 'Test User',
-        email: 'testuser@example.com',
+        email: `test${Date.now()}@example.com`,  
         password: 'testpassword123'
       });
     expect(res.statusCode).toBe(201);
