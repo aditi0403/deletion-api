@@ -2,6 +2,11 @@
 
 A RESTful backend that lets users securely delete their data, aligned with GDPR. Built with Node.js, Express, and MongoDB.
 
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen?logo=mongodb)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+
 ---
 
 ## 🚀 Features
@@ -112,8 +117,8 @@ Interactive API docs available at:
 |--------|---------------------------|----------------------------------|
 | POST   | `/api/auth/register`      | User registration                |
 | POST   | `/api/auth/login`         | User login                       |
-| DELETE | `/api/user/secure-delete` | Secure data deletion             |
-| PATCH  | `/api/user/soft-delete`   | Soft delete (deactivate account) |
+| DELETE | `/api/user/delete`        | Secure data deletion             |
+| PATCH  | `/api/user/deactivate`    | Soft delete (deactivate account) |
 | PATCH  | `/api/user/reactivate`    | Reactivate account               |
 | GET    | `/api/admin/deletions`    | View deletion logs (Admin only)  |
 
@@ -241,8 +246,8 @@ See the [LICENSE](LICENSE) file for details.
 ## 👩‍💻 Author
 
 **Aditi Sharma**  
-- GitHub: [@your-username](https://github.com/your-username)  
-- Email: your-email@example.com
+- GitHub: [@aditi0403](https://github.com/aditi0403)  
+- Email: aditisharma040305@gmail.com
 
 ---
 
