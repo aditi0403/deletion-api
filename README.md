@@ -30,7 +30,9 @@ secure-deletion-api/
 ├── tests/               # Jest test suites
 ├── public/              # Static assets & screenshots
 │   ├── postman.png
+│   ├── postman1.png
 │   ├── swagger.png
+│   ├── swagger1.png
 │   └── webhook.png
 ├── .env.example         # Environment variables template
 ├── server.js            # Application entry point
