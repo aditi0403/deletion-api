@@ -180,33 +180,7 @@ npm run test:coverage
 npm run test:watch
 ```
 
----
 
-## 🚀 Deployment
-
-### Environment Variables (Production)
-
-```env
-NODE_ENV=production
-PORT=5000
-MONGO_URI=mongodb+srv://...
-JWT_SECRET=your-production-secret
-EMAIL_USER=your-production-email
-EMAIL_PASS=your-production-password
-WEBHOOK_URL=your-production-webhook
-```
-
-### Deploy to Heroku (Example)
-
-```bash
-heroku create secure-deletion-api
-heroku config:set NODE_ENV=production
-heroku config:set MONGO_URI=your-mongo-uri
-# ... set other variables
-git push heroku main
-```
-
----
 
 ## 📋 API Usage Examples
 
